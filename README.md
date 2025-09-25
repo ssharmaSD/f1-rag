@@ -39,3 +39,27 @@ The chatbot can answer questions about:
 - Historical information
 - Driver and team information
 - Car specifications and aerodynamics
+
+## ⚠️ Known Issues & Debugging Needed
+
+### Critical Issues
+- **Knowledge Base Accuracy**: Vector search and retrieval needs optimization for better relevance
+- **Response Intelligence**: Chatbot responses need enhancement for better educational value
+- **LLM Integration**: Disabled due to PyTorch security vulnerability (CVE-2025-32434)
+- **Content Quality**: Some retrieved content may not be optimally relevant to queries
+
+### Technical Debugging Required
+- Vector similarity scoring optimization
+- Response generation improvement (currently using basic fallback)
+- Knowledge base chunking strategy refinement
+- F1 content filtering and relevance scoring
+- Integration with secure LLM models
+
+### Data Source Issues
+- Some RSS feeds may be intermittently unavailable
+- API endpoints (Ergast) occasionally down
+- Content deduplication needed
+- Source attribution consistency
+
+## Current Status
+🟡 **Beta Version** - Functional but requires debugging and optimization for production use

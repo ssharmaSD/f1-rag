@@ -1,0 +1,20 @@
+# Minimal requirements for F1 RAG Chatbot
+# Use this if you're having dependency conflicts
+
+# Core web framework
+streamlit
+
+# Essential ML libraries
+torch
+transformers
+sentence-transformers
+
+# Vector database
+chromadb
+
+# Basic data processing
+numpy
+pandas
+
+# Utilities
+python-dotenv

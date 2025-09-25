@@ -1,0 +1,17 @@
+{
+  "total_articles": 28,
+  "scraping_methods": [
+    "rss_feed"
+  ],
+  "ethical_compliance": {
+    "respects_robots_txt": true,
+    "rate_limited": true,
+    "uses_rss_feeds": true,
+    "uses_official_apis": false,
+    "user_agent": "F1-Educational-Bot/1.0 (Educational use only; respects robots.txt)"
+  },
+  "scraped_at": "2025-09-25T14:48:33.277897",
+  "articles_by_method": {
+    "rss_feed": 28
+  }
+}
